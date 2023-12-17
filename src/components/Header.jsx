@@ -16,9 +16,11 @@ const Header = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-          
-          <button className='btn btn-dark p-1'>Login</button>
+          <div classname='login'>
+           <button className='btn btn-dark p-1'>Login</button>
           <button className='btn btn-dark p-1 pe-2 me-2'>sign up</button>
+          </div>
+         
           </Nav>
 
           
